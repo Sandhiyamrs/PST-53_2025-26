@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="circumference of circle-flowgorithm"/>
+        <attribute name="authors" value="sandh"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 07:00:57 PM"/>
+        <attribute name="created" value="c2FuZGg7U0FOREhJWUE7MjAyNi0wMS0wNjswNjoyNjoxOSBQTTsyNDA0"/>
+        <attribute name="edited" value="c2FuZGg7U0FOREhJWUE7MjAyNi0wMS0wNjswNzowMDo1NyBQTTsxOzI1MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="circumference" type="Real" array="False" size=""/>
+            <input variable="circumference"/>
+            <assign variable="circumference" expression="3.14*circumference"/>
+            <output expression="&quot;The circumference is &quot; &amp;circumference" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
