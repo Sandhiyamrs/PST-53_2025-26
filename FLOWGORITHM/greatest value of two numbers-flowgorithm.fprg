@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="greatest value of two numbers-flowgorithm"/>
+        <attribute name="authors" value="sandh"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:30:39 AM"/>
+        <attribute name="created" value="c2FuZGg7U0FOREhJWUE7MjAyNi0wMS0wNjsxMDowNTowOSBBTTsyMzgw"/>
+        <attribute name="edited" value="c2FuZGg7U0FOREhJWUE7MjAyNi0wMS0wNjsxMDozMDozOSBBTTsxOzI0ODk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <if expression="A&lt;B">
+                <then>
+                    <output expression="A" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;FALSE&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
